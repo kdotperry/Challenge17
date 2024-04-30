@@ -1,0 +1,62 @@
+/* Target elements with the class of inline-block */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Target the div with the class of logo */
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
+/* Target the HTML element nav */
+.nav {
+width: 23%;
+padding: 1%;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+/*Target the unordered list within the container */
+
+.container ul {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+
+.logo img {
+    text-align: center;
+}
+
+.herolmg {
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 400px;
+    padding: 1200px;
+}
+
+.context {
+    width: 500px;
+    margin: o auto;
+}
+
+.footer {
+    background-color: #373738;
+    width: auto;
+    padding: 20px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+footer ul li {
+    padding: 5px;
+}

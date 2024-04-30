@@ -4,59 +4,83 @@
   vertical-align: top;
 }
 
-/* Target the div with the class of logo */
-.logo {
-  width: 50%;
-  padding: 1%;
-}
-
-/* Target the HTML element nav */
 .nav {
-width: 23%;
-padding: 1%;
-}
-
-nav ul {
-    width: 50%;
-    margin-left: auto;
-}
-/*Target the unordered list within the container */
-
-.container ul {
-    width: 50%;
-    margin-left: auto;
-    text-align: right;
-}
-
-.logo img {
-    text-align: center;
-}
-
-.heroImg {
-    align-items: center;
-    justify-content: center;
-    padding: 1200px;
-    max-height: auto;
-  width: auto;
-}
-
-.context {
-    width: 500px;
-    margin: o auto;
-}
-
-.footer {
-    background-color: #373738;
-    width: auto;
-    padding: 20px;
-}
-
-footer ul {
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    position: relative;
+    padding: 1%;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
     display: inline-block;
-    vertical-align: top;
-
+    font-size: 22px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 30px 13px 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav > .nav-links > a:hover {
+    border-top: 1px solid white;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+  
+.heroImg {
+    border-radius: 99px;
 }
 
-footer ul li {
-    padding: 5px;
+.content {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: grey;
+    padding: 3%;
+    width: auto;
+    margin: 10px;
+}
+
+    .footer-links {
+            position: fixed;
+            background-color: #333;
+            font-size: 18px;
+            color: white;
+            text-align: center;      
 }
